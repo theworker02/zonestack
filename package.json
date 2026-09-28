@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/zonestack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zone encode/decode helpers for stack payloads in pipelines.",
+  "bin": {
+    "zonestack": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/zonestack.git"
+  },
+  "homepage": "https://theworker02.github.io/zonestack/",
+  "keywords": [
+    "zone",
+    "stack",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
